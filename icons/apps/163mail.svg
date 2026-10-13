@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="128" fill="#C71B1E"/>
+  <!-- 网易红底白信封与 @163 -->
+  <rect x="112" y="160" width="288" height="192" rx="28" fill="#FFFFFF"/>
+  <path d="M112 188l144 100 144-100" fill="none" stroke="#C71B1E" stroke-width="24" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="256" cy="272" r="32" fill="#C71B1E"/>
+  <path d="M246 262h20v20h-20z" fill="#FFFFFF"/>
+</svg>

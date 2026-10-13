@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <rect width="512" height="512" rx="112" fill="#D1884F"/>
+  <circle cx="256" cy="256" r="130" fill="#FED880"/>
+  <ellipse cx="256" cy="230" rx="90" ry="30" fill="#D1884F"/>
+  <circle cx="215" cy="280" r="16" fill="#4B2D17"/>
+  <circle cx="297" cy="280" r="16" fill="#4B2D17"/>
+  <text x="256" y="440" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-weight="900" font-size="40" fill="#FFFFFF" text-anchor="middle" letter-spacing="2">PANCAKESWAP</text>
+</svg>

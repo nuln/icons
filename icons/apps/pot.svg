@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="128" fill="#795290"/>
+  <!-- 经典茶壶与译字 -->
+  <circle cx="256" cy="270" r="100" fill="#FFFFFF"/>
+  <path d="M156 250h-40c0-40 40-40 40-40" fill="none" stroke="#FFFFFF" stroke-width="24"/>
+  <polygon points="356,250 406,200 376,290" fill="#FFFFFF"/>
+</svg>

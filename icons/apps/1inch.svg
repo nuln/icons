@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <rect width="512" height="512" rx="112" fill="#0E1624"/>
+  <circle cx="256" cy="256" r="140" fill="#1C273B"/>
+  <path d="M256 140 c-20 30 -50 40 -80 50 c10 40 40 80 80 100 c-30 -10 -50 -40 -60 -70 c40 20 80 10 110 -20 c-20 -10 -40 -30 -50 -60 z" fill="#D32F2F"/>
+  <text x="256" y="440" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-weight="900" font-size="44" fill="#FFFFFF" text-anchor="middle" letter-spacing="3">1INCH</text>
+</svg>

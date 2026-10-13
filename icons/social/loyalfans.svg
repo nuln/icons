@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <rect width="512" height="512" rx="112" fill="#1A1A1A"/>
+  <path d="M256 160 C210 100 130 140 130 210 C130 290 256 360 256 360 C256 360 382 290 382 210 C382 140 302 100 256 160 Z" fill="#E50914"/>
+  <text x="256" y="440" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-weight="900" font-size="42" fill="#FFFFFF" text-anchor="middle" letter-spacing="2">LoyalFans</text>
+</svg>

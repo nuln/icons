@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="128" fill="#00A0E9"/>
+  <!-- 哈啰单车与微笑曲线 -->
+  <circle cx="160" cy="300" r="64" fill="none" stroke="#FFFFFF" stroke-width="28"/>
+  <circle cx="352" cy="300" r="64" fill="none" stroke="#FFFFFF" stroke-width="28"/>
+  <path d="M160 300l60-100h70l62 100M220 200h80" fill="none" stroke="#FFFFFF" stroke-width="26" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

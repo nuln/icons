@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <rect width="512" height="512" rx="112" fill="#1A202C"/>
+  <rect x="130" y="150" width="252" height="192" rx="20" fill="#3B82F6"/>
+  <circle cx="200" cy="210" r="28" fill="#FFFFFF"/>
+  <polygon points="160,310 256,220 352,310" fill="#FFFFFF"/>
+  <text x="256" y="420" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-weight="900" font-size="34" fill="#FFFFFF" text-anchor="middle" letter-spacing="1">ANIME-PICTURES</text>
+</svg>

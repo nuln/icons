@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="128" fill="#FFBA00"/>
+  <!-- 经典暖黄信封与绿邮戳 -->
+  <rect x="100" y="152" width="312" height="208" rx="24" fill="#FFFFFF"/>
+  <path d="M100 176l156 112 156-112" fill="none" stroke="#E29A00" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- 经典绿色邮戳 -->
+  <g transform="translate(300, 180)">
+    <circle cx="48" cy="48" r="40" fill="none" stroke="#26B847" stroke-width="12"/>
+    <path d="M24 48h48M48 24v48" stroke="#26B847" stroke-width="10" stroke-linecap="round"/>
+  </g>
+</svg>

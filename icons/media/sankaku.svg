@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <rect width="512" height="512" rx="112" fill="#18181B"/>
+  <polygon points="256,120 400,370 112,370" fill="#EA580C"/>
+  <polygon points="256,190 350,350 162,350" fill="#18181B"/>
+  <text x="256" y="445" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-weight="900" font-size="38" fill="#EA580C" text-anchor="middle" letter-spacing="2">SANKAKU</text>
+</svg>

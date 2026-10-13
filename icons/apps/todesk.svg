@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="128" fill="#0066FF"/>
+  <!-- ToDesk 经典纸飞机/双屏互联图形 -->
+  <g fill="#FFFFFF">
+    <path d="M144 192h140c18 0 32 14 32 32v144h-48V256H144v-64z"/>
+    <path d="M368 320H228c-18 0-32-14-32-32V144h48v112h124v64z" opacity="0.8"/>
+    <circle cx="144" cy="192" r="24"/>
+    <circle cx="368" cy="320" r="24"/>
+  </g>
+</svg>

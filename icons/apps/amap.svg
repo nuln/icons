@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="128" fill="#1E65F8"/>
+  <g transform="translate(40, 20)">
+    <!-- 高德经典折纸导航箭头 -->
+    <polygon points="216,90 356,360 216,300 76,360" fill="#FFFFFF"/>
+    <polygon points="216,90 356,360 216,300" fill="#00E5FF"/>
+    <polygon points="216,130 326,340 216,290" fill="#00C4B4" opacity="0.6"/>
+    <polygon points="216,90 216,300 76,360" fill="#FFFFFF"/>
+    <circle cx="216" cy="300" r="16" fill="#1E65F8"/>
+  </g>
+</svg>

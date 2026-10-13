@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <rect width="512" height="512" rx="112" fill="#D32027"/>
+  <g font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-weight="900">
+    <text x="95" y="310" font-size="200" fill="#FFFFFF" letter-spacing="-4">X</text>
+    <text x="235" y="295" font-size="56" fill="#FFFFFF" letter-spacing="4">VIDEOS</text>
+  </g>
+</svg>

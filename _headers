@@ -1,0 +1,9 @@
+# 允许任意网页直接跨域引用图标资源 (CORS)
+/icons/*
+  Access-Control-Allow-Origin: *
+  Cache-Control: public, max-age=31536000, immutable
+
+# 索引文件防缓存，保证新上传的 icon 刷新后立即可见
+/icons.json
+  Access-Control-Allow-Origin: *
+  Cache-Control: public, max-age=0, must-revalidate

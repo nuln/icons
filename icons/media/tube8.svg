@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <rect width="512" height="512" rx="112" fill="#18181B"/>
+  <text x="200" y="290" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-weight="900" font-size="110" fill="#0080FF" text-anchor="middle">tube</text>
+  <circle cx="340" cy="256" r="60" fill="#FF6600"/>
+  <text x="340" y="296" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-weight="900" font-size="110" fill="#FFFFFF" text-anchor="middle">8</text>
+</svg>

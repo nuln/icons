@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <rect width="512" height="512" rx="112" fill="#1A1D20"/>
+  <polygon points="256,130 360,190 360,310 256,370 152,310 152,190" fill="#2563EB"/>
+  <polygon points="256,160 334,205 334,295 256,340 178,295 178,205" fill="#F97316"/>
+  <text x="256" y="440" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-weight="900" font-size="44" fill="#FFFFFF" text-anchor="middle" letter-spacing="3">CIVITAI</text>
+</svg>

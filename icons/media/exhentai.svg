@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <rect width="512" height="512" rx="112" fill="#111111"/>
+  <circle cx="256" cy="256" r="135" fill="#222222"/>
+  <circle cx="170" cy="165" r="38" fill="#555555"/>
+  <circle cx="342" cy="165" r="38" fill="#555555"/>
+  <circle cx="256" cy="265" r="105" fill="#EEEEEE"/>
+  <ellipse cx="210" cy="255" rx="28" ry="38" fill="#111111" transform="rotate(-15 210 255)"/>
+  <ellipse cx="302" cy="255" rx="28" ry="38" fill="#111111" transform="rotate(15 302 255)"/>
+  <circle cx="214" cy="250" r="8" fill="#EEEEEE"/>
+  <circle cx="298" cy="250" r="8" fill="#EEEEEE"/>
+  <ellipse cx="256" cy="295" rx="16" ry="10" fill="#111111"/>
+  <text x="256" y="440" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-weight="900" font-size="40" fill="#888888" text-anchor="middle" letter-spacing="4">EXHENTAI</text>
+</svg>

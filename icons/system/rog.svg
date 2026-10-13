@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="128" fill="#000000"/>
+  <!-- 玩家国度败家之眼 -->
+  <polygon points="120,180 392,180 270,360" fill="#FF0033"/>
+  <polygon points="210,230 330,230 270,320" fill="#000000"/>
+</svg>

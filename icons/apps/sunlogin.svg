@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="128" fill="#FF5500"/>
+  <!-- 向日葵花瓣标志 -->
+  <g transform="translate(256, 256)">
+    <circle cx="0" cy="0" r="44" fill="#FFFFFF"/>
+    <g fill="#FFFFFF" opacity="0.95">
+      <ellipse cx="0" cy="-90" rx="28" ry="46"/>
+      <ellipse cx="0" cy="90" rx="28" ry="46"/>
+      <ellipse cx="-90" cy="0" rx="46" ry="28"/>
+      <ellipse cx="90" cy="0" rx="46" ry="28"/>
+      <ellipse cx="-64" cy="-64" rx="36" ry="36" transform="rotate(45 -64 -64)"/>
+      <ellipse cx="64" cy="-64" rx="36" ry="36" transform="rotate(-45 64 -64)"/>
+      <ellipse cx="-64" cy="64" rx="36" ry="36" transform="rotate(-45 -64 64)"/>
+      <ellipse cx="64" cy="64" rx="36" ry="36" transform="rotate(45 64 64)"/>
+    </g>
+    <circle cx="0" cy="0" r="28" fill="#FF5500"/>
+  </g>
+</svg>

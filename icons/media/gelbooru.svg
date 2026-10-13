@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <rect width="512" height="512" rx="112" fill="#2980B9"/>
+  <circle cx="256" cy="240" r="120" fill="#FFFFFF"/>
+  <path d="M256 160 c-44 0 -80 36 -80 80 c0 44 36 80 80 80 c35 0 65 -22 76 -54 h-76 v-30 h110 c2 8 2 16 2 24 c0 66 -54 120 -120 120 c-77 0 -140 -63 -140 -140 s63 -140 140 -140 c36 0 69 14 94 36 l-28 28 c-18 -15 -41 -24 -68 -24 z" fill="#2980B9"/>
+  <text x="256" y="440" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-weight="900" font-size="44" fill="#FFFFFF" text-anchor="middle" letter-spacing="2">Gelbooru</text>
+</svg>

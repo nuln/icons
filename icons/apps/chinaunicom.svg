@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="128" fill="#E60012"/>
+  <!-- 中国联通中国结环绕 -->
+  <path d="M256 128l90 90-90 90-90-90z" fill="none" stroke="#FFFFFF" stroke-width="36" stroke-linejoin="round"/>
+  <circle cx="256" cy="218" r="32" fill="#FFFFFF"/>
+  <circle cx="256" cy="308" r="32" fill="#FFFFFF"/>
+</svg>

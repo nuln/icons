@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="128" fill="#FF5D23"/>
+  <!-- 斗鱼鲨鱼飞跃剪影 -->
+  <g fill="#FFFFFF" transform="translate(96, 120)">
+    <path d="M280 80C220 30 140 40 80 90c-40 34-60 84-50 134 6 30 24 56 50 70 80 44 190 20 230-50 16-28 20-60 10-90l-40-74z"/>
+    <!-- 鲨鱼鳍 -->
+    <path d="M160 40 L190 0 L210 50 Z"/>
+    <circle cx="110" cy="140" r="16" fill="#FF5D23"/>
+    <!-- 鲨鱼大口 -->
+    <polygon points="60,190 100,170 120,200" fill="#FF5D23"/>
+  </g>
+</svg>

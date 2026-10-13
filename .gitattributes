@@ -1,0 +1,16 @@
+# 自动统一跨平台换行符为 LF
+* text=auto eol=lf
+
+# 二进制图片文件保护，防止 Git 自动转换换行符导致图片损坏
+*.png binary
+*.ico binary
+*.webp binary
+*.jpg binary
+*.jpeg binary
+
+# 文本与矢量文件
+*.svg text eol=lf
+*.json text eol=lf
+*.html text eol=lf
+*.md text eol=lf
+_headers text eol=lf

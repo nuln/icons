@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="128" fill="#FFAA00"/>
+  <!-- 虎牙标志性小黄脸与紫面罩小虎牙 -->
+  <rect x="120" y="152" width="272" height="208" rx="64" fill="#321654"/>
+  <!-- 虎耳与虎牙 -->
+  <polygon points="120,152 176,104 200,168" fill="#321654"/>
+  <polygon points="392,152 336,104 312,168" fill="#321654"/>
+  <!-- 大眼睛与闪亮小虎牙 -->
+  <circle cx="192" cy="240" r="32" fill="#FFAA00"/>
+  <circle cx="320" cy="240" r="32" fill="#FFAA00"/>
+  <polygon points="216,290 236,330 256,290" fill="#FFFFFF"/>
+  <polygon points="256,290 276,330 296,290" fill="#FFFFFF"/>
+</svg>
