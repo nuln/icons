@@ -857,7 +857,12 @@ body {
   <div class="toast-container" id="toast-container"></div>
 
   <script>
-    const currentSubpath = window.location.pathname.replace(/\/[^/]*$/, '/');
+    let rawSub = window.location.pathname;
+    if (rawSub.split('/').pop().includes('.')) {
+      rawSub = rawSub.replace(/\/[^/]*\.[^/]+$/, '/');
+    }
+    if (!rawSub.endsWith('/')) rawSub += '/';
+    const currentSubpath = rawSub;
     const baseUrl = `${window.location.origin}${currentSubpath}`;
 
     function initTheme() {
