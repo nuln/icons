@@ -1,9 +1,25 @@
-# 允许任意网页直接跨域引用图标资源 (CORS)
-/icons/*
+# 全局跨域支持
+/*
   Access-Control-Allow-Origin: *
-  Cache-Control: public, max-age=31536000, immutable
 
-# 索引文件防缓存，保证新上传的 icon 刷新后立即可见
-/icons.json
-  Access-Control-Allow-Origin: *
+# 页面与数据索引防缓存（保证修改即时生效）
+/
   Cache-Control: public, max-age=0, must-revalidate
+/index.html
+  Cache-Control: public, max-age=0, must-revalidate
+/icons/
+  Cache-Control: public, max-age=0, must-revalidate
+/icons/index.html
+  Cache-Control: public, max-age=0, must-revalidate
+/icons.json
+  Cache-Control: public, max-age=0, must-revalidate
+
+# 图标静态资源开启 1 年不可变强缓存 (SVG / PNG)
+/icons/*/*.png
+  Cache-Control: public, max-age=31536000, immutable
+/icons/*/*.svg
+  Cache-Control: public, max-age=31536000, immutable
+/icons/*.png
+  Cache-Control: public, max-age=31536000, immutable
+/icons/*.svg
+  Cache-Control: public, max-age=31536000, immutable

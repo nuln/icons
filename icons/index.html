@@ -897,20 +897,20 @@ body {
 
     async function fetchIcons() {
       try {
-        let res = await fetch('./icons.json');
-        if (!res.ok) res = await fetch('/icons/icons.json');
-        if (!res.ok) res = await fetch('/icons.json');
-        if (!res.ok) throw new Error('Failed to load icons.json');
+        let res = await fetch('/icons.json');
+        if (!res.ok) res = await fetch('./icons.json');
+        if (!res.ok) throw new Error(`HTTP ${res.status}: Failed to load icons.json`);
         iconData = await res.json();
         
         renderStats();
         renderTabs();
         renderIcons();
       } catch (err) {
+        console.error('fetchIcons error:', err);
         document.getElementById('icon-matrix').innerHTML = `
           <div class="empty-view">
-            <p>未找到 icons.json 或索引未建立</p>
-            <p style="margin-top:6px;font-size:11.5px;">请在 public/icons 放入文件并运行 npm run build</p>
+            <p>未找到 icons.json 或加载失败 (${err.message})</p>
+            <p style="margin-top:6px;font-size:11.5px;">请检查网络或刷新页面重试</p>
           </div>
         `;
       }
