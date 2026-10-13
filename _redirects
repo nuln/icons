@@ -1,0 +1,4 @@
+# Cloudflare Pages Redirects
+/                     /icons/          302
+/icons                /icons/          301
+/icons/icons/*        /icons/:splat    301
