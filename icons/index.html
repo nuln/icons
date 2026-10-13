@@ -897,9 +897,20 @@ body {
 
     async function fetchIcons() {
       try {
-        let res = await fetch('/icons.json');
-        if (!res.ok) res = await fetch('./icons.json');
-        if (!res.ok) throw new Error(`HTTP ${res.status}: Failed to load icons.json`);
+        // 优先请求当前目录的 ./icons.json（保证在二级目录 nuln.dev/icons 下不跨出到根域）
+        let res = await fetch('./icons.json');
+        let contentType = res.headers.get('content-type') || '';
+        
+        // 如果失败或返回了 HTML（例如误请求到了根域应用），回退尝试 /icons/icons.json
+        if (!res.ok || contentType.includes('text/html')) {
+          res = await fetch('/icons/icons.json');
+          contentType = res.headers.get('content-type') || '';
+        }
+        
+        if (!res.ok || contentType.includes('text/html')) {
+          throw new Error(`Invalid response (status ${res.status}, type ${contentType})`);
+        }
+        
         iconData = await res.json();
         
         renderStats();
