@@ -1,0 +1,14 @@
+.git
+.git/**
+/.git
+/.git/**
+.github
+.github/**
+/.github
+/.github/**
+.gitignore
+.gitattributes
+README.md
+LICENSE
+wrangler.jsonc
+.assetsignore
